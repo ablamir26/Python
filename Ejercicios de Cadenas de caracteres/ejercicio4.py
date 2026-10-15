@@ -7,4 +7,5 @@ telefono = input("Introduce un telefono (prefijo-número-extensión)")
 divide = telefono.split("-")
 print (divide[1])
 
-
+# tambien se puede hacer con
+# print(telefono[4:13])
