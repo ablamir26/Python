@@ -2,9 +2,10 @@
 # división. Si el divisor es cero el programa debe mostrar un error.
 dividendo = int(input("Introduce el dividendo"))
 divisor = int(input("Introduce el divisor"))
-resultado = dividendo / divisor
+
 if divisor == 0:
     print ("Error, no se puede dividir por cero")
 
 else:
+    resultado = dividendo / divisor
     print(resultado)
