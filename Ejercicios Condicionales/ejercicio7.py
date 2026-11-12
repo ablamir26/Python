@@ -11,3 +11,20 @@
 # Escribir un programa que pregunte al usuario su renta anual y muestre por pantalla
 # el tipo impositivo que le corresponde.
 
+# Solicitar al usuario su renta anual
+renta = float(input("Introduce tu renta anual en €: "))
+
+# Evaluar los tramos impositivos mediante condicionales
+if renta < 10000:
+    tipo = 5
+elif renta < 20000:
+    tipo = 15
+elif renta < 35000:
+    tipo = 20
+elif renta < 60000:
+    tipo = 30
+else:
+    tipo = 45
+
+# Mostrar el resultado por pantalla
+print(f"El tipo impositivo que te corresponde es del {tipo}%.")
