@@ -11,6 +11,3 @@ num = int(input("introduce un numero entero"))
 # i es el numero de veces que el asterisco se imprime dentro del for hasta llegar al numero del imput
 for i in range (1, num + 1):
     print ("*" * i)
-
-
- 
